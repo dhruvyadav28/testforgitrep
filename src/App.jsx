@@ -3,6 +3,8 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import Hello from './hello.jsx'
+import { Third } from './Third'
+
 
 function App() {
   
@@ -11,6 +13,7 @@ function App() {
     <>
     <div>
    <Hello/>
+   <Third/>
       </div>
     </>
   )
